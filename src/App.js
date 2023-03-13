@@ -20,6 +20,7 @@ export default function App() {
         The component is optimized for recent status of database.
         <br />
         It's good for bussiness and dashboard UIs.
+        <br /><br />Please <h4 style={{display:"inline-block"}}>npm i mui-datagrid-full-edit</h4> and enjoy it!!!
       </pre>
       <div style={{ margin: 10 }}>
         <SellerManageGrid />
