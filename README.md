@@ -1,2 +1,2 @@
 # mui-datagrid-full-edit-sample1
-Created with CodeSandbox
+[View on CodeSandbox](https://codesandbox.io/s/github/prettyblueberry/mui-datagrid-full-edit-sample1)
