@@ -8,7 +8,7 @@ export default function App() {
         Welcome to mui-datagrid-full-edit !
       </h1>
       <pre style={{ fontSize: 15, margin: 30 }}>
-        This is a example of mui-datagrid-full-edit module.
+        This is an example of mui-datagrid-full-edit module.
         mui-datagrid-full-edit is a full functioned grid component with CRUD.
         But you can use it very simply with few props settings.
         <br />
