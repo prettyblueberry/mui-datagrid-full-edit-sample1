@@ -1,5 +1,9 @@
 # Sample of `mui-datagrid-full-edit` - No 1
+
+This project is a sample usage of `mui-datagrid-full-edit`.
+
 [View on CodeSandbox](https://codesandbox.io/s/github/prettyblueberry/mui-datagrid-full-edit-sample1)
+
 
 ## What is `mui-datagrid-full-edit`?
 `mui-datagrid-full-edit` is a full functioned grid component with CRUD. But you can use it very simply with few props settings.
