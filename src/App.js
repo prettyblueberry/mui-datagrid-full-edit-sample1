@@ -7,20 +7,33 @@ export default function App() {
       <h1 style={{ margin: 50, marginTop: 80 }}>
         Welcome to mui-datagrid-full-edit !
       </h1>
-      <h4>
-        You can experience the best mui-datagrid
-        <br />
-        which is very simple to use but with full functions.
-      </h4>
       <pre style={{ fontSize: 15, margin: 30 }}>
+        This is a example of mui-datagrid-full-edit module.
+        mui-datagrid-full-edit is a full functioned grid component with CRUD.
+        But you can use it very simply with few props settings.
+        <br />
         You do not need to set complex props to manage datagrid.
         <br />
-        But you can customize everything you want on it.
-        <br />
-        The component is optimized for recent status of database.
+        <b>
+          Please read{" "}
+          <a
+            href="https://www.npmjs.com/package/mui-datagrid-full-edit"
+            target="_blank"
+            rel="noreferrer"
+          >
+            HERE
+          </a>{" "}
+          to know mui-datagrid-full-edit in detail.
+        </b>
         <br />
         It's good for bussiness and dashboard UIs.
-        <br /><br />Please <h4 style={{display:"inline-block"}}>npm i mui-datagrid-full-edit</h4> and enjoy it!!!
+        <br />
+        <br />
+        Please{" "}
+        <h4 style={{ display: "inline-block" }}>
+          npm i mui-datagrid-full-edit
+        </h4>{" "}
+        and enjoy it!!!
       </pre>
       <div style={{ margin: 10 }}>
         <SellerManageGrid />
@@ -37,7 +50,7 @@ export default function App() {
           rel="noreferrer"
         >
           <button style={{ width: 150, height: 40, fontSize: 20, margin: 10 }}>
-            My GitHub
+            GitHub
           </button>
         </a>
         <a
@@ -46,7 +59,7 @@ export default function App() {
           rel="noreferrer"
         >
           <button style={{ width: 150, height: 40, fontSize: 20, margin: 10 }}>
-            Contact Me
+            Contact
           </button>
         </a>
       </pre>

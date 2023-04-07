@@ -29,27 +29,27 @@ export default function SellerManageGrid() {
       });
   }, []);
 
-  const onSaveRow = (id, updatedRow, rows, oldRow) => {
+  const onSaveRow = (id, updatedRow, oldRow, oldRows) => {
     sellerController
       .saveRow(updatedRow)
       .then((res) => {
         const dbRow = res.data;
-        setRows(rows.map((r) => (r.id === updatedRow.id ? { ...dbRow } : r)));
+        setRows(oldRows.map((r) => (r.id === updatedRow.id ? { ...dbRow } : r)));
       })
       .catch((err) => {
-        setRows(rows);
+        setRows(oldRows);
       });
   };
 
-  const onDeleteRow = (id, oldRow, rows) => {
+  const onDeleteRow = (id, oldRow, oldRows) => {
     sellerController
       .deleteRow(id)
       .then((res) => {
-        const dbRow = res.data;
-        setRows(rows.filter((r) => r.id !== dbRow.id));
+        const dbRowId = res.data.id;
+        setRows(oldRows.filter((r) => r.id !== dbRowId));
       })
       .catch((err) => {
-        setRows(rows);
+        setRows(oldRows);
       });
   };
 
