@@ -14,6 +14,8 @@ export default function App() {
         <br />
         You do not need to set complex props to manage datagrid.
         <br />
+        <b>You can download the data of grid as an Excel file (*.xlsx).</b>
+        <br />
         <b>
           Please read{" "}
           <a
