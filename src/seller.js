@@ -12,14 +12,14 @@ let rows = [
     login: "cycle-depot",
     title: "Cycle-Depot",
     desc: "Fat",
-    dateCreated: "2023-03-09"
+    dateCreated: new Date("2023-03-09")
   },
   {
     id: 2,
     login: "toplowriderstore",
     title: "Top Lowrider",
     desc: "Has",
-    dateCreated: "2023-03-09"
+    dateCreated: new Date("2023-03-09")
   }
 ];
 
@@ -40,6 +40,8 @@ const saveRow = (row) => {
 
   //virtual axios
   return new Promise((resolve, reject) => {
+    if (row.isNew) rows.push(row);
+    else rows = rows.map((r) => (r.id === row.id ? row : r));
     resolve({ data: row });
   });
 };
@@ -51,6 +53,7 @@ const deleteRow = (rowId) => {
   //virtual axios
   return new Promise((resolve, reject) => {
     const deletedRow = rows.find((r) => r.id === rowId);
+    rows = rows.filter((r) => r.id !== rowId);
     resolve({ data: deletedRow });
   });
 };
