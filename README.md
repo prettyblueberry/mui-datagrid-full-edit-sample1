@@ -10,6 +10,8 @@ This project is a sample usage of `mui-datagrid-full-edit`.
 
 It is an easy way of `@mui/x-data-grid`. If you're thinking `@mui/x-data-grid` is good for your admin page but difficult a bit, `mui-datagrid-full-edit` would be the best choice for you.
 
+> `mui-datagrid-full-edit`'s toolbar has an export button to download data of grid as an `Excel` file (\*.`xlsx`). `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide it by license key, but `mui-datagrid-full-edit` provides it without any license key.
+
 Status of `mui-datagrid-full-edit`: 
 [![NPM Version](https://img.shields.io/npm/v/mui-datagrid-full-edit.svg)](https://www.npmjs.com/package/mui-datagrid-full-edit)
 [![NPM Downloads](https://img.shields.io/npm/dt/mui-datagrid-full-edit.svg)](https://www.npmjs.com/package/mui-datagrid-full-edit)
