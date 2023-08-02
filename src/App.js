@@ -56,7 +56,7 @@ export default function App() {
           </button>
         </a>
         <a
-          href="https://form.jotform.com/230442827812353"
+          href="https://alt.jotfor.ms/prettyblueberry52702/contact-from-github"
           target="_blank"
           rel="noreferrer"
         >
